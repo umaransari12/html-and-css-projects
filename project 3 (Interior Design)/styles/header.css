@@ -1,0 +1,44 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 25%;
+    background: rgb(247, 40, 40);
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 100px 32px;
+}
+.logo{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    width : 100%;
+}
+ul li{
+    margin: 10px 0;
+    padding: 10px 0;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+ul li:hover {
+    background-color: white;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+ul li:hover a {
+    color: black;
+}

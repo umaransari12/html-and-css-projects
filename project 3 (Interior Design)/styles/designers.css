@@ -1,0 +1,38 @@
+.designers h2{
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(247, 40, 40);
+}
+.designers p{
+    font-size: 18px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-right: 60px;
+    line-height: 24px;
+}
+.designers h5{
+    font-size: 1.5rem;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.designers-img{
+    display: flex;
+   margin-left: 400px;
+   margin-right: 28px;
+   margin-top: 28px;
+   
+}
+.designers-img img{
+    width: 86%;
+}
+.designers-img h3{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.designers-img h4{
+    color: rgb(165, 165, 165);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

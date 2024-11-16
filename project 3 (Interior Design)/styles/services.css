@@ -1,0 +1,15 @@
+.services h2{
+    margin-top:100px;
+    margin-left: 400px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(247, 40, 40);
+}
+
+.services p{
+    font-size: 18px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-right: 60px;
+    line-height: 24px;
+}
