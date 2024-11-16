@@ -1,0 +1,21 @@
+.heroimg{
+    background: url("/images/architect.jpg" ) ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroimg h1{
+    position: absolute;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+.heroimg h1 span{
+    font-size: 3.5rem;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 0.719);
+    padding: 15px;
+}
