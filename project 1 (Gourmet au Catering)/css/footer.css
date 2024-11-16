@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    align-content: center;
+    padding-inline: 10% ;
+    width: 100%;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  footer ul{
+      display: flex;
+      padding: 42px;
+      flex-wrap: wrap;
+      align-items:  center;
+      justify-content: center;
+  }
+  footer ul li{
+      list-style: none;
+  }
+  footer ul li a{
+      padding: 18px;
+      text-decoration: none;
+      color: black;
+      padding-top: 10px;
+  }
+  footer ul li a:hover{
+      color: red;
+      text-decoration: underline;
+  }

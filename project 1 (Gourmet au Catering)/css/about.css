@@ -1,0 +1,115 @@
+
+.about-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.about-div .left img{
+   width: 80%;
+   height: auto;
+   margin: 100px 0 100px 100px;
+   opacity: .7;
+   transform: rotate(-90deg);
+}
+.about-div .right{
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: center;
+}
+.about-div .right h2{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.about-div .right h5{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.about-div .right p{
+    margin-top: 30px;
+    line-height: 1.5;
+    text-align: left;
+    font-size: larger;
+}
+.about-div .right p span{
+    background-color: rgb(236, 235, 235);
+    padding: 4px 8px;
+}
+.about-div .second-para{
+    color: rgb(110, 110, 110);
+}
+hr{
+    margin: auto;
+    width: 85%;
+}
+@media screen and (max-width:1203px){
+    .about-div .right h2{
+        font-size: 2.2rem;
+        font-weight: lighter;
+    } 
+    .about-div .right h5{
+        font-size: 1.5rem;
+        font-weight: 100;
+        margin-top: 10px;
+    }
+    .about-div .right p{
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: left;
+    }
+    .about-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .about-div .right{
+        margin-bottom: 20px;
+        margin-left: 100px;
+        text-align: center;
+    }
+} 
+@media screen and (max-width:720px){
+    .about-div .right h2{
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+    .about-div .right h5{
+        font-size: 1rem;
+        font-weight: 100;
+        margin-top: 10px;
+    }
+    .about-div .right p{
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .about-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+    .about-div .right{
+        margin-bottom: 50px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .about-div .left img{
+        display: none;
+    }
+     .about-div .left img{
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: auto;
+        opacity: .7;
+        transform: rotate(-90deg);
+     }
+}
+
+@media screen and (max-width:425px){
+    .about-div .right{
+        margin-bottom: 50px;
+        margin-left:50px;
+        text-align: center;
+    }
+}
